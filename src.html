@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-... (shortened)"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/src.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-black">
+    <section class="container">
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg z-3 position-fixed justify-content-between  top-0 bg-black px-3 border-bottom border-warning py-4"
+      >
+        <a href="#" class="navbar-brand ">
+          <img class="" src="/img/image.png" alt="" />
+        </a>
+        <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end "
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav me-lg-0 justify-content-center gap-5 align-items-center"
+            id="navbarSupportedContent"
+          >
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-uppercase fw-bold" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <!-- Hero Section -->
+      <div class="hero row justify-content-between">
+        <div class="hero-left col-5">
+          <h4 class="hero-title fs-5 uppercase fw-bold text-warning">
+            Fitness and Gym Center
+          </h4>
+          <h1 class="main-title text-white uppercase">
+            Make your body healthy and muscular
+          </h1>
+          <p class="des text-white ps-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Culpa
+            expedita natus qui, ab dignissimos necessitatibus ad? Reprehenderit
+            tempora veniam repudiandae amet.
+          </p>
+          <button type="button" class="btn btn-warning">Get Started</button>
+        </div>
+        <div class="hero-right col-6">
+          <img class="w-75" src="/img/image copy.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- section MAIN -->
+    <section class="container container-contact">
+      <h1
+        class="title-main text-md-start m-auto text-white fs-1 fw-bold text-center w-75 text-uppercase"
+      >
+        We are here to improve health and want to practice fitness properly and
+        correctly
+      </h1>
+      <div
+        class="gallery d-flex gap-5 flex-column flex-md-row justify-content-between pt-5"
+      >
+        <img
+          src="/img/image copy 3.png"
+          alt=""
+          class="mainImg1 pt-5 h-75 w-75"
+        />
+        <div class="card-contact w-50">
+          <img
+            src="/img/image copy 2.png"
+            class="gallery-profile w-100 pb-md-4 pb-2"
+            alt=""
+          />
+          <p class="des text-white opacity-75">
+            Loren ipsum, dolor sit amet consectetur adipisicing elit. Impedit,
+            suscipit numquam. Repellendus vitae est reiciendis autem enim, ea
+            officia maxime lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Dolorem, ullam facilis rem repudiandae neque ratione?
+          </p>
+          <button class="btn">contact US</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- See Gallery All -->
+    <section class="container m-auto gallery-container text-white">
+      <h1 class="title">See our Gallery Gym</h1>
+      <div class="all-gallery">
+        <div class="img-container">
+          <img src="/img/image copy 4.png" alt="Gallery Image 1" />
+        </div>
+        <div class="img-container">
+          <img src="/img/image copy 5.png" alt="Gallery Image 2" />
+        </div>
+        <div class="img-container">
+          <img src="/img/image copy 6.png" alt="Gallery Image 3" />
+        </div>
+        <div class="img-container">
+          <img src="/img/image copy 4.png" alt="Gallery Image 4" />
+        </div>
+        <div class="img-container">
+          <img src="/img/image copy 5.png" alt="Gallery Image 5" />
+        </div>
+        <div class="img-container">
+          <img src="/img/image copy 6.png" alt="Gallery Image 6" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Choose Plan (Money) -->
+    <section
+      class="container p-0 pt-5 d-flex text-white gap-5 justify-content-between w-100"
+    >
+      <div class="block-title">
+        <h1 class="title">Choose Our Plans</h1>
+        <p class="des">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia
+          cupiditate accusamus consequuntur, officia officiis minus perferendis
+          doloremque amet enim. At.
+        </p>
+      </div>
+
+      <!-- Plan 1 -->
+      <div class="block-money text-white">
+        <h3 class="money-title title">Monthly</h3>
+        <p class="money-des des">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Consequuntur, quaerat.
+        </p>
+        <ul class="money-list list-unstyled d-flex flex-column gap-3">
+          <li class="des">
+            <img src="/assets/checked.png" alt="" /> Instructor
+          </li>
+          <li class="des">
+            <img src="/assets/checked.png" alt="" /> Free Drink
+          </li>
+          <li class="des">
+            <img src="/assets/checked.png" alt="" /> Get Supplement
+          </li>
+          <li class="des">
+            <img src="/assets/checked.png" alt="" /> Get Support
+          </li>
+        </ul>
+        <h1 class="price">$90</h1>
+        <button type="button" class="btn btn-money">Choose Now</button>
+      </div>
+
+      <!-- Plan 2 -->
+      <div class="block-money text-white">
+        <h3 class="money-title title">Monthly</h3>
+        <p class="money-des des">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Consequuntur, quaerat.
+        </p>
+        <ul class="money-list list-unstyled d-flex flex-column gap-3">
+          <li class="des">
+            <img src="/assets/checked.png" alt="" /> Instructor
+          </li>
+          <li class="des">
+            <img src="/assets/checked.png" alt="" /> Free Drink
+          </li>
+          <li class="des">
+            <img src="/assets/checked.png" alt="" /> Get Supplement
+          </li>
+          <li class="des">
+            <img src="/assets/checked.png" alt="" /> Get Support
+          </li>
+        </ul>
+        <h1 class="price">$190</h1>
+        <button type="button" class="btn btn-money">Choose Now</button>
+      </div>
+    </section>
+
+    <!-- Map section -->
+    <section class="container map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=1im141im121m311d54d38a3.567858362512d103.6184616419613413d11.97691559020361f0e117612f013f01e2111102412176814713.116e01e21iskm12ekh14v17471162637591e7e21iskm12ekh"
+        class="w-100 map"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      >
+      </iframe>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      class="container contact-container text-white w-100 p-0 d-flex gap-5 justify-content-between"
+    >
+      <div
+        class="block-left w-50 d-flex justify-content-start flex-column align-content-start"
+      >
+        <h1 class="title">Get in Touch</h1>
+        <p class="des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          possimus cum quidem fugit cumque numquam odit asperiores, unde maiores
+          esse?
+        </p>
+        <ul class="list-unstyled d-flex flex-column gap-5">
+          <li class="d-flex gap-4 align-items-center">
+            <i class="fa-solid bg-warning fs-1 p-3 text-white fa-phone"></i>
+            <div
+              class="d-flex flex-column justify-content-start align-items-start"
+            >
+              <h3 class="title fs-4">Phone</h3>
+              <p class="des phone-Number font-raleway">855 999 575 90</p>
+            </div>
+          </li>
+          <li class="d-flex gap-4 align-items-center">
+            <i class="fa-regular bg-warning text-white  fs-1 p-3 fa-envelope"></i>
+            <div
+              class="d-flex flex-column justify-content-start align-items-start"
+            >
+              <h3 class="title fs-4">Email</h3>
+              <p class="des phone-Number">join@gmail.com</p>
+            </div>
+          </li>
+          <li class="d-flex gap-4 align-items-center">
+            <i class="fa-solid text-white bg-warning fs-1 p-3 fa-house-user"></i>
+            <div
+              class="d-flex flex-column justify-content-start align-items-start"
+            >
+              <h3 class="title fs-4">Phnom Penh</h3>
+              <p class="des phone-Number">Tekla, Sommong 12</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="block-right w-50">
+        <div class="layer d-flex justify-content-center align-content-center">
+          <ul
+            class="list-unstyled d-flex justify-content-center flex-column align-items-center"
+          >
+            <li class="text-center">
+              <h1 class="title text-black fs-1">Monday-Saturday</h1>
+              <p class="time font-raleway fs-4">08-12AM - 12-00PM</p>
+            </li>
+            <li class="text-center">
+              <h1 class="title text-black fs-1">Sunday</h1>
+              <p class="time font-raleway fs-4">Open 24 Hours</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carousel Slide -->
+    <section class="carousel-container w-100">
+      <div
+        id="carouselExampleFade"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- First Slide -->
+          <div class="carousel-item text-white active">
+            <div class="information text-center w-75 m-auto">
+              <p class="des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                debitis consequatur. Excepturi error eligendi, perspiciatis nisi
+                impedit possimus sunt incidunt blanditiis minus magnam,
+                voluptatibus mollitia magni quia aspernatur! Cum aperiam vero
+                pariatur exercitationem eligendi sunt architecto corrupti aut
+                ipsa adipisci vel, excepturi totam dicta quo culpa officia
+                accusamus at fugit.
+              </p>
+              <h2 class="title name">Meng Meng</h2>
+              <p class="des position">Web Designer</p>
+            </div>
+          </div>
+
+          <!-- Second Slide -->
+          <div class="carousel-item">
+            <div class="information text-center text-white w-75 m-auto">
+              <p class="des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                debitis consequatur. Excepturi error eligendi, perspiciatis nisi
+                impedit possimus sunt incidunt blanditiis minus magnam,
+                voluptatibus mollitia magni quia aspernatur! Cum aperiam vero
+                pariatur exercitationem eligendi sunt architecto corrupti aut
+                ipsa adipisci vel, excepturi totam dicta quo culpa officia
+                accusamus at fugit.
+              </p>
+              <h2 class="title name">Mean Mean</h2>
+              <p class="des position">Mobile Developer</p>
+            </div>
+          </div>
+
+          <!-- Third Slide -->
+          <div class="carousel-item">
+            <div class="information text-center text-white w-75 m-auto">
+              <p class="des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                debitis consequatur. Excepturi error eligendi, perspiciatis nisi
+                impedit possimus sunt incidunt blanditiis minus magnam,
+                voluptatibus mollitia magni quia aspernatur! Cum aperiam vero
+                pariatur exercitationem eligendi sunt architecto corrupti aut
+                ipsa adipisci vel, excepturi totam dicta quo culpa officia
+                accusamus at fugit.
+              </p>
+              <h2 class="title name">Leng Seak</h2>
+              <p class="des position">Software Engineer</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Navigation Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <footer class="footer-container bg-warning container-fluid">
+      <ul
+        class="list-unstyled d-flex justify-content-start align-items-start gap-4"
+      >
+        <li>
+          <a class=" fs-2 text-white" href="#"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+        </li>
+        <li>
+          <a class=" fs-2 text-white"  href="#"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a class=" fs-2 text-white" href="#"
+            ><i class="fa-brands  fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a class="fs-2 text-white" href="#"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+      </ul>
+      <p class="des copy-right">Copyright &copy; Created by Meng Leang</p>
+    </footer>
+  </body>
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"
+  ></script>
+</html>
